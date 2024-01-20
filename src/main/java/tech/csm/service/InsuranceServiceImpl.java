@@ -41,4 +41,9 @@ public class InsuranceServiceImpl implements InsuranceService {
 		return "Insurance deleted";
 	}
 
+	@Override
+	public Insurance getInsuranceById(Integer insuranceId) {
+		return insuranceRepo.findById(insuranceId).get();
+	}
+
 }

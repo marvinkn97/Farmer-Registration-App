@@ -9,5 +9,6 @@ public interface InsuranceService {
 	String createCropInsurance(Insurance insurance);
 	List<Insurance> getAllInsurances();
 	String deleteCropInsurance(Integer insuranceId);
+	Insurance getInsuranceById(Integer insuranceId);
 
 }

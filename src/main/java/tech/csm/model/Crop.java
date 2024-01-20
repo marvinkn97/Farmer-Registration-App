@@ -32,7 +32,6 @@ public class Crop implements Serializable {
 	private Integer cropId;
 	private String cropName;
 	
-	
 	@ManyToOne
 	@JoinColumn(name="season_id")
 	private Season season;
